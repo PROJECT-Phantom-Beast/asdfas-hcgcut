@@ -18,7 +18,7 @@ jobs:
       uses: classroom-resources/autograding-io-grader@v1
       with:
         test-name: test
-        setup-command: "./setup.sh"
+        setup-command: ''
         command: "./cal.sh"
         input: 1+1
         expected-output: '2'
